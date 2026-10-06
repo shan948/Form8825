@@ -1,0 +1,170 @@
+[
+  {
+    "property_name": "A",
+    "property_address": "10 Oak Ave, Denver, CO 80202",
+    "income_line_items": {
+      "gross_rents": 410000,
+      "other_income": 0
+    },
+    "expense_line_items": {
+      "advertising": 1200,
+      "auto_travel": 0,
+      "cleaning_maintenance": 15000,
+      "commissions": 0,
+      "insurance": 18000,
+      "interest": 52000,
+      "legal_professional": 0,
+      "real_estate_taxes": 41000,
+      "repairs": 9000,
+      "utilities": 0,
+      "wages_salaries": 0,
+      "depreciation": 60000,
+      "other_deductions": 0
+    },
+    "totals": {
+      "total_rental_income": 410000,
+      "total_expenses": 196200,
+      "net_income": 213800
+    }
+  },
+  {
+    "property_name": "B",
+    "property_address": "22 Pine St, Boise, ID 83702",
+    "income_line_items": {
+      "gross_rents": 198500,
+      "other_income": 3500
+    },
+    "expense_line_items": {
+      "advertising": 0,
+      "auto_travel": 0,
+      "cleaning_maintenance": 7200,
+      "commissions": 0,
+      "insurance": 9100,
+      "interest": 21000,
+      "legal_professional": 0,
+      "real_estate_taxes": 18400,
+      "repairs": 0,
+      "utilities": 6400,
+      "wages_salaries": 0,
+      "depreciation": 31000,
+      "other_deductions": 0
+    },
+    "totals": {
+      "total_rental_income": 202000,
+      "total_expenses": 93100,
+      "net_income": 108900
+    }
+  },
+  {
+    "property_name": "C",
+    "property_address": "301 Elm Rd, Tulsa, OK 74103",
+    "income_line_items": {
+      "gross_rents": 77250,
+      "other_income": 0
+    },
+    "expense_line_items": {
+      "advertising": 0,
+      "auto_travel": 900,
+      "cleaning_maintenance": 0,
+      "commissions": 0,
+      "insurance": 3900,
+      "interest": 12200,
+      "legal_professional": 0,
+      "real_estate_taxes": 6100,
+      "repairs": 3300,
+      "utilities": 0,
+      "wages_salaries": 0,
+      "depreciation": 14000,
+      "other_deductions": 0
+    },
+    "totals": {
+      "total_rental_income": 77250,
+      "total_expenses": 40400,
+      "net_income": 36850
+    }
+  },
+  {
+    "property_name": "D",
+    "property_address": "5 Birch Ln, Omaha, NE 68102",
+    "income_line_items": {
+      "gross_rents": 128000,
+      "other_income": 900
+    },
+    "expense_line_items": {
+      "advertising": 600,
+      "auto_travel": 0,
+      "cleaning_maintenance": 4100,
+      "commissions": 0,
+      "insurance": 6200,
+      "interest": 0,
+      "legal_professional": 2500,
+      "real_estate_taxes": 11800,
+      "repairs": 0,
+      "utilities": 0,
+      "wages_salaries": 18000,
+      "depreciation": 22000,
+      "other_deductions": 0
+    },
+    "totals": {
+      "total_rental_income": 128900,
+      "total_expenses": 65200,
+      "net_income": 63700
+    }
+  },
+  {
+    "property_name": "E",
+    "property_address": "700 Cedar Ct, Reno, NV 89501",
+    "income_line_items": {
+      "gross_rents": 264300,
+      "other_income": 0
+    },
+    "expense_line_items": {
+      "advertising": 0,
+      "auto_travel": 0,
+      "cleaning_maintenance": 9900,
+      "commissions": 0,
+      "insurance": 12750,
+      "interest": 38400,
+      "legal_professional": 0,
+      "real_estate_taxes": 22100,
+      "repairs": 7400,
+      "utilities": 0,
+      "wages_salaries": 26000,
+      "depreciation": 41000,
+      "other_deductions": 3150
+    },
+    "totals": {
+      "total_rental_income": 264300,
+      "total_expenses": 160700,
+      "net_income": 103600
+    }
+  },
+  {
+    "property_name": "F",
+    "property_address": "48 Maple Way, Fargo, ND 58102",
+    "income_line_items": {
+      "gross_rents": 54000,
+      "other_income": 1500
+    },
+    "expense_line_items": {
+      "advertising": 0,
+      "auto_travel": 0,
+      "cleaning_maintenance": 0,
+      "commissions": 0,
+      "insurance": 2800,
+      "interest": 9700,
+      "legal_professional": 0,
+      "real_estate_taxes": 5200,
+      "repairs": 12900,
+      "utilities": 0,
+      "wages_salaries": 0,
+      "depreciation": 16500,
+      "other_deductions": 0
+    },
+    "totals": {
+      "total_rental_income": 55500,
+      "total_expenses": 47100,
+      "net_income": 8400
+    }
+  }
+]

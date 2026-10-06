@@ -1,0 +1,86 @@
+[
+  {
+    "property_name": "A",
+    "property_address": "120 Main St, Austin, TX 78701",
+    "income_line_items": {
+      "gross_rents": 845200,
+      "other_income": 12400
+    },
+    "expense_line_items": {
+      "advertising": 4500,
+      "auto_travel": 2150,
+      "cleaning_maintenance": 38900,
+      "commissions": 0,
+      "insurance": 42300,
+      "interest": 61750,
+      "legal_professional": 7800,
+      "real_estate_taxes": 96420,
+      "repairs": 18640,
+      "utilities": 22310,
+      "wages_salaries": 104000,
+      "depreciation": 88900,
+      "other_deductions": 15275
+    },
+    "totals": {
+      "total_rental_income": 857600,
+      "total_expenses": 502945,
+      "net_income": 354655
+    }
+  },
+  {
+    "property_name": "B",
+    "property_address": "88 Harbor Blvd, San Diego, CA 92101",
+    "income_line_items": {
+      "gross_rents": 1212000,
+      "other_income": 0
+    },
+    "expense_line_items": {
+      "advertising": 0,
+      "auto_travel": 5320,
+      "cleaning_maintenance": 61200,
+      "commissions": 24000,
+      "insurance": 88410,
+      "interest": 143900,
+      "legal_professional": 12650,
+      "real_estate_taxes": 151030,
+      "repairs": 47215,
+      "utilities": 39880,
+      "wages_salaries": 210500,
+      "depreciation": 176300,
+      "other_deductions": 23460
+    },
+    "totals": {
+      "total_rental_income": 1212000,
+      "total_expenses": 984865,
+      "net_income": 228135
+    }
+  },
+  {
+    "property_name": "C",
+    "property_address": "4500 Lakeview Dr, Chicago, IL 60614",
+    "income_line_items": {
+      "gross_rents": 36000,
+      "other_income": 1200
+    },
+    "expense_line_items": {
+      "advertising": 850,
+      "auto_travel": 0,
+      "cleaning_maintenance": 2400,
+      "commissions": 0,
+      "insurance": 3100,
+      "interest": 14800,
+      "legal_professional": 1500,
+      "real_estate_taxes": 7900,
+      "repairs": 9650,
+      "utilities": 0,
+      "wages_salaries": 0,
+      "depreciation": 11200,
+      "other_deductions": 640
+    },
+    "totals": {
+      "total_rental_income": 37200,
+      "total_expenses": 52040,
+      "net_income": -14840
+    }
+  }
+]

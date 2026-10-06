@@ -1,0 +1,30 @@
+[
+  {
+    "property_name": "A",
+    "property_address": "4th st plaza",
+    "income_line_items": {
+      "gross_rents": 1734896,
+      "other_income": 0
+    },
+    "expense_line_items": {
+      "advertising": 0,
+      "auto_travel": 3110,
+      "cleaning_maintenance": 57809,
+      "commissions": 0,
+      "insurance": 105226,
+      "interest": 90130,
+      "legal_professional": 5388,
+      "real_estate_taxes": 247079,
+      "repairs": 37386,
+      "utilities": 16816,
+      "wages_salaries": 308333,
+      "depreciation": 215185,
+      "other_deductions": 160233
+    },
+    "totals": {
+      "total_rental_income": 1734896,
+      "total_expenses": 1246695,
+      "net_income": 488201
+    }
+  }
+]

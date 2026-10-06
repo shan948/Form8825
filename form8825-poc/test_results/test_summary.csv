@@ -1,0 +1,12 @@
+run_id,test_file,extraction_method,properties,checks,passed,failed,status,seconds,note
+d6809e42,f8825.pdf,acroform,1,28,28,0,PASS,1.22,provided sample
+d6809e42,f8825_multi_ABC.pdf,acroform,3,72,72,0,PASS,1.19,"Three properties A, B, C on page 1; C runs at a loss; line 22a is negative"
+d6809e42,f8825_multi_ABC_flattened.pdf,text,3,72,72,0,PASS,1.13,flattened: values in the text layer
+d6809e42,f8825_multi_ABC_scanned.pdf,,,,,,SKIPPED,,OCR case skipped
+d6809e42,f8825_multi_ABC_bad_totals.pdf,acroform,3,72,72,0,PASS,1.25,"line 18 of B overstated by 1,000; line 20a understated by 500"
+d6809e42,f8825_encrypted.pdf,,0,1,1,0,PASS,0.04,user-password protected
+d6809e42,f8825_corrupt.pdf,,0,1,1,0,PASS,0.0,truncated after 2 KB
+d6809e42,not_a_pdf.pdf,,0,1,1,0,PASS,0.0,
+d6809e42,not_8825.pdf,,0,1,1,0,PASS,0.07,
+d6809e42,f8825_multi_page2.pdf,acroform,6,138,138,0,PASS,1.24,"Six properties: A-D on page 1, E-F on the continuation page 2"
+d6809e42,f8825_multi_page2_flattened.pdf,text,6,138,138,0,PASS,1.12,flattened: values in the text layer

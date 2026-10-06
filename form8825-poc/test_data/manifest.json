@@ -1,0 +1,82 @@
+[
+  {
+    "input": "../samples/f8825.pdf",
+    "expected": "../samples/8825_output.json",
+    "expect_method": "acroform",
+    "expect_validation": "pass",
+    "note": "provided sample"
+  },
+  {
+    "input": "f8825_multi_ABC.pdf",
+    "expected": "multi_ABC_expected.json",
+    "expect_method": "acroform",
+    "expect_validation": "pass",
+    "note": "Three properties A, B, C on page 1; C runs at a loss; line 22a is negative"
+  },
+  {
+    "input": "f8825_multi_ABC_flattened.pdf",
+    "expected": "multi_ABC_expected.json",
+    "expect_method": "text",
+    "expect_validation": "pass",
+    "note": "flattened: values in the text layer"
+  },
+  {
+    "input": "f8825_multi_ABC_scanned.pdf",
+    "expected": "multi_ABC_expected.json",
+    "expect_method": "ocr",
+    "expect_validation": "pass",
+    "ocr": true,
+    "note": "image-only scan at 200 dpi with noise"
+  },
+  {
+    "input": "f8825_multi_ABC_bad_totals.pdf",
+    "expected": "multi_ABC_bad_totals_expected.json",
+    "expect_method": "acroform",
+    "expect_validation": "fail",
+    "expect_failed_rules": [
+      [
+        "B",
+        "18"
+      ],
+      [
+        null,
+        "20a"
+      ]
+    ],
+    "note": "line 18 of B overstated by 1,000; line 20a understated by 500"
+  },
+  {
+    "input": "f8825_encrypted.pdf",
+    "expect_error": "encrypted_pdf",
+    "password_ok": "secret",
+    "expected": "multi_ABC_expected.json",
+    "note": "user-password protected"
+  },
+  {
+    "input": "f8825_corrupt.pdf",
+    "expect_error": "corrupt_pdf",
+    "note": "truncated after 2 KB"
+  },
+  {
+    "input": "not_a_pdf.pdf",
+    "expect_error": "not_a_pdf"
+  },
+  {
+    "input": "not_8825.pdf",
+    "expect_error": "not_form_8825"
+  },
+  {
+    "input": "f8825_multi_page2.pdf",
+    "expected": "multi_page2_expected.json",
+    "expect_method": "acroform",
+    "expect_validation": "pass",
+    "note": "Six properties: A-D on page 1, E-F on the continuation page 2"
+  },
+  {
+    "input": "f8825_multi_page2_flattened.pdf",
+    "expected": "multi_page2_expected.json",
+    "expect_method": "text",
+    "expect_validation": "pass",
+    "note": "flattened: values in the text layer"
+  }
+]
